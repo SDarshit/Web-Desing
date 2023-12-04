@@ -4131,6 +4131,7 @@ input[type="button"].btn-block {
 
 .navbar-nav {
   display: flex;
+  justify-content: end;
   flex-direction: column;
   padding-left: 0;
   margin-bottom: 0;
@@ -4156,6 +4157,7 @@ input[type="button"].btn-block {
 .navbar-collapse {
   flex-basis: 100%;
   flex-grow: 1;
+  justify-content: end;
   align-items: center;
 }
 
