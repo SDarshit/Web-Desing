@@ -79,3 +79,25 @@
     letter-spacing: 1px;
     color: #00acc1;
   }
+
+  #cv {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -5;
+  }
+  .floater {
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  @keyframes floating {
+    0% {
+      transform: translate(0, 0);
+    }
+    100% {
+      transform: translate(0, 15px);
+    }
+  }
